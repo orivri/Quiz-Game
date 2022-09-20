@@ -1,2 +1,2 @@
-# Quiz-Game
-A Quiz application generated from data saved in file and displays a score 
+# Quiz Game
+ A Quiz game loading from file with different difficulty levels
