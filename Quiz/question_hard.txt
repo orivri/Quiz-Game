@@ -1,0 +1,23 @@
+#1
+"What?","cin","cout","char","print","b","4";
+#2
+" What?", "cin", "cout", "char",  "print", "b", "4";
+#3
+" who?", "me", "you", "char",  "print", "a" , "3";
+#4
+" when?", "the", "there", "their",  "they", "c" , "2";
+#5
+"What?","cin","cout","char","print","b","4";
+#6
+" What?", "cin", "cout", "char",  "print", "b", "4";
+#7
+" who?", "me", "you", "char",  "print", "a" , "3";
+#8
+" when?", "the", "there", "their",  "they", "c" , "2";
+#9
+"What?","cin","cout","char","print","b","4";
+#10
+" What?", "cin", "cout", "char",  "print", "b", "4";
+
+
+

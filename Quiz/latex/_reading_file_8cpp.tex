@@ -1,0 +1,111 @@
+\hypertarget{_reading_file_8cpp}{}\doxysection{Reading\+File.\+cpp File Reference}
+\label{_reading_file_8cpp}\index{ReadingFile.cpp@{ReadingFile.cpp}}
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$cstddef$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include \char`\"{}String\+Manipulators.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Reading\+File.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Question.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{_reading_file_8cpp_a4f431df8d184e3dc3539d88e3fd85bd6}{values}} (int Number, int c)
+\item 
+void \mbox{\hyperlink{_reading_file_8cpp_af87732468d94c91ed700d9f037cce295}{create\+\_\+questions}} ()
+\item 
+std\+::vector$<$ std\+::vector$<$ std\+::string $>$ $>$ \mbox{\hyperlink{_reading_file_8cpp_a13cada6cb0901b6f06eb84144f12cec0}{read\+\_\+questions}} (std\+::string filename)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_question}{Question}} $>$ \mbox{\hyperlink{_reading_file_8cpp_adb2acfd148c83a2a6a069d0e7353cdca}{shuffle}} (std\+::vector$<$ \mbox{\hyperlink{class_question}{Question}} $>$ Tasks)
+\item 
+void \mbox{\hyperlink{_reading_file_8cpp_ad44d3eaaad5aee98ae16e31d99275c9d}{debug\+\_\+questions}} (std\+::vector$<$ std\+::vector$<$ std\+::string $>$ $>$vect)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_reading_file_8cpp_af87732468d94c91ed700d9f037cce295}\label{_reading_file_8cpp_af87732468d94c91ed700d9f037cce295}} 
+\index{ReadingFile.cpp@{ReadingFile.cpp}!create\_questions@{create\_questions}}
+\index{create\_questions@{create\_questions}!ReadingFile.cpp@{ReadingFile.cpp}}
+\doxysubsubsection{\texorpdfstring{create\_questions()}{create\_questions()}}
+{\footnotesize\ttfamily void create\+\_\+questions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+It generates and creates nrows of question each quetion with a fixed ncol of property ~\newline
+ 
+
+Definition at line \mbox{\hyperlink{_reading_file_8cpp_source_l00073}{73}} of file \mbox{\hyperlink{_reading_file_8cpp_source}{Reading\+File.\+cpp}}.
+
+\mbox{\Hypertarget{_reading_file_8cpp_ad44d3eaaad5aee98ae16e31d99275c9d}\label{_reading_file_8cpp_ad44d3eaaad5aee98ae16e31d99275c9d}} 
+\index{ReadingFile.cpp@{ReadingFile.cpp}!debug\_questions@{debug\_questions}}
+\index{debug\_questions@{debug\_questions}!ReadingFile.cpp@{ReadingFile.cpp}}
+\doxysubsubsection{\texorpdfstring{debug\_questions()}{debug\_questions()}}
+{\footnotesize\ttfamily void debug\+\_\+questions (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ std\+::string $>$ $>$}]{vect }\end{DoxyParamCaption})}
+
+The function debugs a matrix showing of a set of questions and all its variables on the console 
+\begin{DoxyParams}{Parameters}
+{\em std\+::vector$<$std\+::vector$<$string$>$$>$} & vect vector of vector double printed to the output \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_reading_file_8cpp_source_l00151}{151}} of file \mbox{\hyperlink{_reading_file_8cpp_source}{Reading\+File.\+cpp}}.
+
+\mbox{\Hypertarget{_reading_file_8cpp_a13cada6cb0901b6f06eb84144f12cec0}\label{_reading_file_8cpp_a13cada6cb0901b6f06eb84144f12cec0}} 
+\index{ReadingFile.cpp@{ReadingFile.cpp}!read\_questions@{read\_questions}}
+\index{read\_questions@{read\_questions}!ReadingFile.cpp@{ReadingFile.cpp}}
+\doxysubsubsection{\texorpdfstring{read\_questions()}{read\_questions()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ std\+::string $>$ $>$ read\+\_\+questions (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})}
+
+The function reads a matrix of random number from a file 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & file\+\_\+name a string variable storing the file name from which data is read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$ std\+::vector$<$std\+::string$>$$>$ data returns a vector of vector matrix containing the read matrix 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_reading_file_8cpp_source_l00110}{110}} of file \mbox{\hyperlink{_reading_file_8cpp_source}{Reading\+File.\+cpp}}.
+
+\mbox{\Hypertarget{_reading_file_8cpp_adb2acfd148c83a2a6a069d0e7353cdca}\label{_reading_file_8cpp_adb2acfd148c83a2a6a069d0e7353cdca}} 
+\index{ReadingFile.cpp@{ReadingFile.cpp}!shuffle@{shuffle}}
+\index{shuffle@{shuffle}!ReadingFile.cpp@{ReadingFile.cpp}}
+\doxysubsubsection{\texorpdfstring{shuffle()}{shuffle()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_question}{Question}} $>$ shuffle (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_question}{Question}} $>$}]{Tasks }\end{DoxyParamCaption})}
+
+The function shuffles a matrix of questions and returns a shuffled version 
+\begin{DoxyParams}{Parameters}
+{\em std\+::vector$<$std\+::vector$<$string$>$$>$} & Tasks vector of vector to be shuffled \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$string$>$$>$ Tasks new vector of vector after shuffling 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_reading_file_8cpp_source_l00141}{141}} of file \mbox{\hyperlink{_reading_file_8cpp_source}{Reading\+File.\+cpp}}.
+
+\mbox{\Hypertarget{_reading_file_8cpp_a4f431df8d184e3dc3539d88e3fd85bd6}\label{_reading_file_8cpp_a4f431df8d184e3dc3539d88e3fd85bd6}} 
+\index{ReadingFile.cpp@{ReadingFile.cpp}!values@{values}}
+\index{values@{values}!ReadingFile.cpp@{ReadingFile.cpp}}
+\doxysubsubsection{\texorpdfstring{values()}{values()}}
+{\footnotesize\ttfamily std\+::string values (\begin{DoxyParamCaption}\item[{int}]{Numberof\+Question,  }\item[{int}]{Question\+Parameters }\end{DoxyParamCaption})}
+
+This function helps allocate per question the variables/properities(c) for each question. 
+\begin{DoxyParams}{Parameters}
+{\em int} & Numberof\+Question number of rows/questions to be entered into the matrix container and saved to file (r where r1 = question 1 and properties, r2 =question 2 and properties.....) \\
+\hline
+{\em int} & Question\+Parameters number of columns/options per question (where (c1 = quetion text),(c2-\/c5 = options \mbox{[}a, b, c, d\mbox{]}), the answer(c6) and the marks(c7) ) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_reading_file_8cpp_source_l00021}{21}} of file \mbox{\hyperlink{_reading_file_8cpp_source}{Reading\+File.\+cpp}}.
+

@@ -1,0 +1,20 @@
+#1
+"What is the file extention for c++?","cpp","txt","c++","print","a","10";
+#2
+"which is a type of output device?","keyboard","joystick","intel processors", "Monitor", "d", "10";
+#3
+"John newman architecture is a type of", "datastructure architecture","CPU architecture","Algorith", "Building", "b" , "10";
+#4
+"One byte has how many bits", "1000", "1056", "1024","8", "c" , "10";
+#5
+"An algorith should be all but","efficient","Finite","General","large","d","4";
+#6
+"Select the odd one out", "Optimistic efficiency", "Pessimistic efficiency", "Average efficiency",  "cumulative efficiency", "d", "10";
+#7
+" Which has the highest preference in arithmetics?", "addition", "subtraction", "multiplication",  "brackets", "d" , "10";
+#8
+" Santoshi Nakamoto is tagged the founder of?", "cplusplus", "bitcoin", "phython",  "java", "b" , "10";
+#9
+"complexity of an algorithm refers to ........","efficiency","programming language","hardware","datastructure","a","10";
+#10
+"how many seconds makes a minite", "60", "90", "180",  "99.9", "a", "10";

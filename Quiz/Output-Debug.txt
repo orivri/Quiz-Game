@@ -1,0 +1,15 @@
+﻿'Quiz.exe' (Win32): Loaded 'C:\Users\SOLO LEARN\source\repos\daf68ce8-gr13-repo\Project\Quiz\x64\Debug\Quiz.exe'. Symbols loaded.
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+The thread 0x3878 has exited with code 0 (0x0).
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'Quiz.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+The thread 0x31dc has exited with code 0 (0x0).
+The thread 0x3aec has exited with code 0 (0x0).
+The program '[18088] Quiz.exe' has exited with code 0 (0x0).

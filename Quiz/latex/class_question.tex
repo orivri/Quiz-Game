@@ -1,0 +1,154 @@
+\hypertarget{class_question}{}\doxysection{Question Class Reference}
+\label{class_question}\index{Question@{Question}}
+
+
+{\ttfamily \#include $<$Question.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_question_a85fef234daa992e60df4d7621eecf60e}{Evaluate\+\_\+ans}} (std\+::string response, std\+::string \+\_\+answer)
+\item 
+\mbox{\hyperlink{class_question_a86b303c2c470567ab5782e3952d0c916}{Question}} (std\+::string Question\+\_\+text, std\+::string A, std\+::string B, std\+::string C, std\+::string D, std\+::string Answer, int Mark)
+\item 
+\mbox{\hyperlink{class_question_a2e1167d0407c7530b4f7a7492d0050d0}{Question}} ()
+\item 
+void \mbox{\hyperlink{class_question_a2e6d9c57eb5d8a00dddcacdb88f0ea52}{Question\+\_\+set}} (std\+::string Rquestion\+\_\+text, std\+::string Ra, std\+::string Rb, std\+::string Rc, std\+::string Rd, std\+::string Ranswer, int Rmark)
+\item 
+int \mbox{\hyperlink{class_question_a6c53b0fa479ae83410da0307c13ec2c0}{Get\+\_\+answer}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{class_question}{Question}} Class with several private variables and methods 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & question\+\_\+text a string variable storing question text \\
+\hline
+{\em std\+::string} & a a string variable storing option a \\
+\hline
+{\em std\+::string} & b a string variable storing option b \\
+\hline
+{\em std\+::string} & c a string variable storing option c \\
+\hline
+{\em std\+::string} & d a string variable storing option d \\
+\hline
+{\em std\+::string} & answer a string variable storing the the correct option between a,b,c,d \\
+\hline
+{\em int} & mark an integer variable storing the mark \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_question_8h_source_l00020}{20}} of file \mbox{\hyperlink{_question_8h_source}{Question.\+h}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_question_a86b303c2c470567ab5782e3952d0c916}\label{class_question_a86b303c2c470567ab5782e3952d0c916}} 
+\index{Question@{Question}!Question@{Question}}
+\index{Question@{Question}!Question@{Question}}
+\doxysubsubsection{\texorpdfstring{Question()}{Question()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Question\+::\+Question (\begin{DoxyParamCaption}\item[{std\+::string}]{Question\+\_\+text,  }\item[{std\+::string}]{A,  }\item[{std\+::string}]{B,  }\item[{std\+::string}]{C,  }\item[{std\+::string}]{D,  }\item[{std\+::string}]{Answer,  }\item[{int}]{Mark }\end{DoxyParamCaption})}
+
+A constructor for the \mbox{\hyperlink{class_question}{Question}} Class with given parameters 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & Question\+\_\+text a string variable storing question text \\
+\hline
+{\em std\+::string} & A a string variable storing option a \\
+\hline
+{\em std\+::string} & B a string variable storing option b \\
+\hline
+{\em std\+::string} & C a string variable storing option c \\
+\hline
+{\em std\+::string} & D a string variable storing option d \\
+\hline
+{\em std\+::string} & Answer a string variable storing the the correct option between a,b,c,d \\
+\hline
+{\em int} & Mark an integer variable storing the mark \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_question_8cpp_source_l00011}{11}} of file \mbox{\hyperlink{_question_8cpp_source}{Question.\+cpp}}.
+
+\mbox{\Hypertarget{class_question_a2e1167d0407c7530b4f7a7492d0050d0}\label{class_question_a2e1167d0407c7530b4f7a7492d0050d0}} 
+\index{Question@{Question}!Question@{Question}}
+\index{Question@{Question}!Question@{Question}}
+\doxysubsubsection{\texorpdfstring{Question()}{Question()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Question\+::\+Question (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A constructor for the \mbox{\hyperlink{class_question}{Question}} Class without parameters 
+
+Definition at line \mbox{\hyperlink{_question_8cpp_source_l00006}{6}} of file \mbox{\hyperlink{_question_8cpp_source}{Question.\+cpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_question_a85fef234daa992e60df4d7621eecf60e}\label{class_question_a85fef234daa992e60df4d7621eecf60e}} 
+\index{Question@{Question}!Evaluate\_ans@{Evaluate\_ans}}
+\index{Evaluate\_ans@{Evaluate\_ans}!Question@{Question}}
+\doxysubsubsection{\texorpdfstring{Evaluate\_ans()}{Evaluate\_ans()}}
+{\footnotesize\ttfamily bool Question\+::\+Evaluate\+\_\+ans (\begin{DoxyParamCaption}\item[{std\+::string}]{response,  }\item[{std\+::string}]{\+\_\+answer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+A public method of the \mbox{\hyperlink{class_question}{Question}} Class that evaluates the response from the player with the answer and returns a pass(1) or fail(0) 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & response a string variable with the response from player \\
+\hline
+{\em std\+::string} & answer a string variable storing the the correct option between a,b,c,d for the question class \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 0 failed question 
+
+bool 1 passed question 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_question_8h_source_l00034}{34}} of file \mbox{\hyperlink{_question_8h_source}{Question.\+h}}.
+
+\mbox{\Hypertarget{class_question_a6c53b0fa479ae83410da0307c13ec2c0}\label{class_question_a6c53b0fa479ae83410da0307c13ec2c0}} 
+\index{Question@{Question}!Get\_answer@{Get\_answer}}
+\index{Get\_answer@{Get\_answer}!Question@{Question}}
+\doxysubsubsection{\texorpdfstring{Get\_answer()}{Get\_answer()}}
+{\footnotesize\ttfamily int Question\+::\+Get\+\_\+answer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A public method that displays the question to player, receives the response, checks if the answer is correct and allocates score for the question \begin{DoxyReturn}{Returns}
+int score an integer variable storing the mark for the question based on evaluation from the bool \mbox{\hyperlink{class_question_a85fef234daa992e60df4d7621eecf60e}{Evaluate\+\_\+ans()}} method. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_question_8cpp_source_l00030}{30}} of file \mbox{\hyperlink{_question_8cpp_source}{Question.\+cpp}}.
+
+\mbox{\Hypertarget{class_question_a2e6d9c57eb5d8a00dddcacdb88f0ea52}\label{class_question_a2e6d9c57eb5d8a00dddcacdb88f0ea52}} 
+\index{Question@{Question}!Question\_set@{Question\_set}}
+\index{Question\_set@{Question\_set}!Question@{Question}}
+\doxysubsubsection{\texorpdfstring{Question\_set()}{Question\_set()}}
+{\footnotesize\ttfamily void Question\+::\+Question\+\_\+set (\begin{DoxyParamCaption}\item[{std\+::string}]{Rquestion\+\_\+text,  }\item[{std\+::string}]{Ra,  }\item[{std\+::string}]{Rb,  }\item[{std\+::string}]{Rc,  }\item[{std\+::string}]{Rd,  }\item[{std\+::string}]{Ranswer,  }\item[{int}]{Rmark }\end{DoxyParamCaption})}
+
+A public method that intializes the variables and sets a question 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & Rquestion\+\_\+text a string variable storing question text \\
+\hline
+{\em std\+::string} & Ra a string variable storing option a \\
+\hline
+{\em std\+::string} & Rb a string variable storing option b \\
+\hline
+{\em std\+::string} & Rc a string variable storing option c \\
+\hline
+{\em std\+::string} & Rd a string variable storing option d \\
+\hline
+{\em std\+::string} & Ranswer a string variable storing the the correct option between a,b,c,d \\
+\hline
+{\em int} & Rmark an integer variable storing the mark \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_question_8cpp_source_l00019}{19}} of file \mbox{\hyperlink{_question_8cpp_source}{Question.\+cpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_question_8h}{Question.\+h}}\item 
+\mbox{\hyperlink{_question_8cpp}{Question.\+cpp}}\end{DoxyCompactItemize}

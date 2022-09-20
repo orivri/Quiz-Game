@@ -1,0 +1,72 @@
+\hypertarget{_string_manipulators_8h}{}\doxysection{String\+Manipulators.\+h File Reference}
+\label{_string_manipulators_8h}\index{StringManipulators.h@{StringManipulators.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{_string_manipulators_8h_a06947d8f9cba0bab5f91d9db535e9923}{Remove\+\_\+question\+\_\+no}} (std\+::string \&line, char \&question\+\_\+start)
+\item 
+std\+::string \mbox{\hyperlink{_string_manipulators_8h_aa2bbcc5c129c1991a60dd179c8b3a296}{Replace}} (std\+::string \&line, char \&delim)
+\item 
+std\+::string \mbox{\hyperlink{_string_manipulators_8h_a63174453503eb70a02ad49f6fd229d92}{trim}} (const std\+::string s)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_string_manipulators_8h_a06947d8f9cba0bab5f91d9db535e9923}\label{_string_manipulators_8h_a06947d8f9cba0bab5f91d9db535e9923}} 
+\index{StringManipulators.h@{StringManipulators.h}!Remove\_question\_no@{Remove\_question\_no}}
+\index{Remove\_question\_no@{Remove\_question\_no}!StringManipulators.h@{StringManipulators.h}}
+\doxysubsubsection{\texorpdfstring{Remove\_question\_no()}{Remove\_question\_no()}}
+{\footnotesize\ttfamily std\+::string Remove\+\_\+question\+\_\+no (\begin{DoxyParamCaption}\item[{std\+::string \&}]{line,  }\item[{char \&}]{question\+\_\+start }\end{DoxyParamCaption})}
+
+The function evaluates a line and extraxts line if the variable in the memory location @hash is encountered 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & \&line ampersand to address of line to be evaluated \\
+\hline
+{\em char} & \& question\+\_\+start variable of character that triggers an extraction of line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string Line returns a string with substring from the line 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_string_manipulators_8cpp_source_l00006}{6}} of file \mbox{\hyperlink{_string_manipulators_8cpp_source}{String\+Manipulators.\+cpp}}.
+
+\mbox{\Hypertarget{_string_manipulators_8h_aa2bbcc5c129c1991a60dd179c8b3a296}\label{_string_manipulators_8h_aa2bbcc5c129c1991a60dd179c8b3a296}} 
+\index{StringManipulators.h@{StringManipulators.h}!Replace@{Replace}}
+\index{Replace@{Replace}!StringManipulators.h@{StringManipulators.h}}
+\doxysubsubsection{\texorpdfstring{Replace()}{Replace()}}
+{\footnotesize\ttfamily std\+::string Replace (\begin{DoxyParamCaption}\item[{std\+::string \&}]{line,  }\item[{char \&}]{delim }\end{DoxyParamCaption})}
+
+The function evaluates a line and replaces delimeters or separators with white space 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string\&} & line ampersand to address of line to be evaluated \\
+\hline
+{\em char\&} & delim ampersand to address of with chararacter of delimiter to be evaluate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string Line returns a string with the edited line 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_string_manipulators_8cpp_source_l00016}{16}} of file \mbox{\hyperlink{_string_manipulators_8cpp_source}{String\+Manipulators.\+cpp}}.
+
+\mbox{\Hypertarget{_string_manipulators_8h_a63174453503eb70a02ad49f6fd229d92}\label{_string_manipulators_8h_a63174453503eb70a02ad49f6fd229d92}} 
+\index{StringManipulators.h@{StringManipulators.h}!trim@{trim}}
+\index{trim@{trim}!StringManipulators.h@{StringManipulators.h}}
+\doxysubsubsection{\texorpdfstring{trim()}{trim()}}
+{\footnotesize\ttfamily std\+::string trim (\begin{DoxyParamCaption}\item[{const std\+::string}]{s }\end{DoxyParamCaption})}
+
+The function evaluates a line and returns a string of words without -\/ \char`\"{}\char`\"{} or ; used as boundary marks within a question 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & s string of texts to be trimmed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string s returns a string with the edited line 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_string_manipulators_8cpp_source_l00022}{22}} of file \mbox{\hyperlink{_string_manipulators_8cpp_source}{String\+Manipulators.\+cpp}}.
+

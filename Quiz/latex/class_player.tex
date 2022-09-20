@@ -1,0 +1,75 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+{\ttfamily \#include $<$Player.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}{Player}} ()
+\item 
+void \mbox{\hyperlink{class_player_ab36b805f01d9b0977158db4f13e8ff1a}{Player\+\_\+inputdata}} ()
+\item 
+void \mbox{\hyperlink{class_player_ac28648e28d6614a40924d8a8628188fd}{Player\+\_\+play}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{class_player}{Player}} Class with several private variables and methods 
+\begin{DoxyParams}{Parameters}
+{\em int} & Total an integer tracting player score \\
+\hline
+{\em char} & username a character variable storing player username \\
+\hline
+{\em Game\+\_\+level} & Select an enum type/ difficulty level selected by user \\
+\hline
+{\em std\+::vector} & $<$\+Question$>$ Tasks a vector of questions read from file based on difficulty level selcted by player in Game\+\_\+levl \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{_player_8h_source_l00017}{17}} of file \mbox{\hyperlink{_player_8h_source}{Player.\+h}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}\label{class_player_affe0cc3cb714f6deb4e62f0c0d3f1fd8}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A constructor for the \mbox{\hyperlink{class_question}{Question}} Class without parameters 
+
+Definition at line \mbox{\hyperlink{_player_8cpp_source_l00008}{8}} of file \mbox{\hyperlink{_player_8cpp_source}{Player.\+cpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_ab36b805f01d9b0977158db4f13e8ff1a}\label{class_player_ab36b805f01d9b0977158db4f13e8ff1a}} 
+\index{Player@{Player}!Player\_inputdata@{Player\_inputdata}}
+\index{Player\_inputdata@{Player\_inputdata}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player\_inputdata()}{Player\_inputdata()}}
+{\footnotesize\ttfamily void Player\+::\+Player\+\_\+inputdata (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A public method that takes the input from the player, switches to the difficulty level, reads questions from a specific file per difficulty level and initials game play 
+
+Definition at line \mbox{\hyperlink{_player_8cpp_source_l00013}{13}} of file \mbox{\hyperlink{_player_8cpp_source}{Player.\+cpp}}.
+
+\mbox{\Hypertarget{class_player_ac28648e28d6614a40924d8a8628188fd}\label{class_player_ac28648e28d6614a40924d8a8628188fd}} 
+\index{Player@{Player}!Player\_play@{Player\_play}}
+\index{Player\_play@{Player\_play}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Player\_play()}{Player\_play()}}
+{\footnotesize\ttfamily void Player\+::\+Player\+\_\+play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A public method that displays all of the questions from a choosen category selected by the player read from a vector of questions 
+
+Definition at line \mbox{\hyperlink{_player_8cpp_source_l00284}{284}} of file \mbox{\hyperlink{_player_8cpp_source}{Player.\+cpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_player_8h}{Player.\+h}}\item 
+\mbox{\hyperlink{_player_8cpp}{Player.\+cpp}}\end{DoxyCompactItemize}
